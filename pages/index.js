@@ -26,7 +26,7 @@ const Home = () => {
           To get started, edit the <code>pages/index.js</code> or{' '}
           <code>pages/api/date.js</code> files, then save to reload.
         </p>
-
+        <h6>{process.env.FAUNADB_SECRET}</h6>
         <p className="row date">
           The date is:&nbsp;{' '}
           {date ? (
